@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Data\Cave.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\EndProgramMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\UserInputMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameLoopImpl.cpp" />
+    <ClCompile Include="Source\HuntTheWumpus.cpp" />
+    <ClCompile Include="Source\Messages\InitCaveMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\RoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\MoveMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\InvalidRoomMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGeneratorImpl.cpp" />
+    <ClCompile Include="Source\Messages\DeepPitRoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\SuperBatRoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\WumpusRoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\UpdateArrowLevelMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\ShootMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\ArrowRoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Messages\GoblinRoomEnteredMsg.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Data\goblinMove.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{3adf0926-c52c-4b5d-a38a-90423554ef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{fee79a5b-4393-4d79-b203-a632de07114c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{eda9936c-e870-480b-b8bc-69832869b010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Data\Cave.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\EndProgramMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interfaces\GameLoop.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Interfaces\Message.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Data\Room.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\UserInputMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameLoopImpl.h" />
+    <ClInclude Include="Source\HuntTheWumpus.h" />
+    <ClInclude Include="Source\Interfaces\RandomGenerator.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\InitCaveMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\RoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\MoveMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\InvalidRoomMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\MessageHandlerBase.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RandomGeneratorImpl.h" />
+    <ClInclude Include="Source\Messages\DeepPitRoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\SuperBatRoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\WumpusRoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\ShootMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\UpdateArrowLevelMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\ArrowRoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Messages\GoblinRoomEnteredMsg.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Data\goblinMove.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
