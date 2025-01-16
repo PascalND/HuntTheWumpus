@@ -9,15 +9,6 @@ namespace HtW
 bool UpdateArrowLevelMsgHandler::arrowsAvailable() const
 {
     return m_pCave->getRoomByContent(HtW::Room::Content::ARROW).number != -1;
-    //for (int i = 0; i < HtW::Cave::NUMBER_ROOMS; i++)
-    //{
-    //    HtW::Room room = m_pCave->rooms[i];
-    //    if (room.content == HtW::Room::Content::ARROW)
-    //    {
-    //        return true;
-    //    }
-    //}
-    //return false;
 }
 int UpdateArrowLevelMsg::ID = -1;
 
@@ -38,7 +29,6 @@ void UpdateArrowLevelMsgHandler::Process(const Message& message)
     if (updateMsg.addArrow)
     {
         (*m_arrows)++;
-        /*std::cout << "\nDu hast " << *m_arrows << " Pfeile zur Verfügung.\n";*/
     }
     else
     {
