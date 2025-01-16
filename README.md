@@ -6,12 +6,12 @@ This is my first major project during my training as a software developer. Dive 
 
 ## 📑 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [How to Play](#how-to-play)
-- [Contributors](#contributors)
-- [License](#license)
+- [About the Project](#-about-the-project)
+- [Technologies](#-technologies)
+- [Installation](#-installation)
+- [How to Play](#-how-to-play)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ## 🎯 About the Project
 
